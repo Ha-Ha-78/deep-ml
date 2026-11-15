@@ -5,7 +5,7 @@ def matrix_dot_vector(a: list[list[int|float]], b: list[int|float]) -> list[int|
     if len(a[0]) != len(b):
         return -1
     
-    ans = []
+    ans : list[int|float]= []
 
     for i in range(len(a)):
         temp : int = 0
